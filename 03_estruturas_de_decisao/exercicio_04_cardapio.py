@@ -20,15 +20,24 @@ quantidade = int(input("Digite a quantidade consumida:"))
 match codigo_item:
     case 1: 
         total = quantidade * 4.00
+        codigo_item = "Cachorro Quente"
+        print(f"Foi consumido {quantidade} unidades do item {codigo_item}. O Total a pagar é: R$ {total:.2f}")
     case 2:
         total = quantidade * 4.50
+        codigo_item = "X-Salada"
+        print(f"Foi consumido {quantidade} unidades do item {codigo_item}. O Total a pagar é: R$ {total:.2f}")
     case 3:
         total = quantidade * 5.00
+        codigo_item= "X-Bacon"
+        print(f"Foi consumido {quantidade} unidades do item {codigo_item}. O Total a pagar é: R$ {total:.2f}")
     case 4:
         total = quantidade * 2.00
+        codigo_item="Torrada Simples"
+        print(f"Foi consumido {quantidade} unidades do item {codigo_item}. O Total a pagar é: R$ {total:.2f}")
     case 5:
         total = quantidade * 1.50
+        codigo_item = "Refrigerante"
+        print(f"Foi consumido {quantidade} unidades do item {codigo_item}. O Total a pagar é: R$ {total:.2f}")
     case _:
         total = 0.00
         print("Código inválido. Insira um código entre 1 e 5.")
-print(f"Foi consumido {quantidade} unidades do item {codigo_item}. O Total a pagar é: R$ {total:.2f}")
