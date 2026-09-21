@@ -3,6 +3,6 @@ numero = int(input("Digite um número inteiro: "))
 
 # Escreva a estrutura if / else
 if numero % 2 == 0:
-    print ("O número é par")
+    print (f"O número {numero} é par")
 else:
-    print("O número é impar")
+    print(f"O número {numero} é impar")
