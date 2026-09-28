@@ -39,5 +39,4 @@ match codigo_item:
         codigo_item = "Refrigerante"
         print(f"Foi consumido {quantidade} unidades do item {codigo_item}. O Total a pagar é: R$ {total:.2f}")
     case _:
-        total = 0.00
         print("Código inválido. Insira um código entre 1 e 5.")
