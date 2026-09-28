@@ -17,7 +17,7 @@ if A == 0:
 elif (B ** 2 - 4 * A * C) < 0:
     print("Impossível calcular")
 else:
-    delta = B ** 2 - 4 * A * C
+    delta = (B ** 2) - (4 * A * C)
     R1 = (-B + delta ** 0.5) / (2 * A)
     R2 = (-B - delta ** 0.5) / (2 * A)
     print(f"O valor de delta é {delta} e as raízes são:")
