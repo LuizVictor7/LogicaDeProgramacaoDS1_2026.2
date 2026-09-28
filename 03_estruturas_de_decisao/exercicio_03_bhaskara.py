@@ -20,5 +20,6 @@ else:
     delta = B ** 2 - 4 * A * C
     R1 = (-B + delta ** 0.5) / (2 * A)
     R2 = (-B - delta ** 0.5) / (2 * A)
+    print(f"O valor de delta é {delta} e as raízes são:")
     print(f"R1 = {R1:.5f}")
     print(f"R2 = {R2:.5f}")
