@@ -22,7 +22,7 @@ SUA MISSÃO:
 # TODO: Escreva aqui a versão corrigida:
 senha_correta = 2002
 while True:
-    tentativa = input("Digite a senha de acesso: ")
+    tentativa = int(input("Digite a senha de acesso: "))
     if tentativa == senha_correta:
         print("Acesso Permitido")
         break
