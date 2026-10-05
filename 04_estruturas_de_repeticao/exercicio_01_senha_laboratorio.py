@@ -12,5 +12,5 @@ Ao acertar, imprima "Acesso Permitido" e finalize o programa.
 senha_correta = int(input("Digite a senha(Até 4 digitos): "))
 while senha_correta != 2002:
     print("Senha Invalida")
-    senha_correta = int(input("Digite a senha: "))
+    senha_correta = int(input("Digite a senha(Até 4 digitos): "))
 print("Acesso Permitido")
