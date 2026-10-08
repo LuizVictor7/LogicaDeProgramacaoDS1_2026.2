@@ -9,3 +9,11 @@ para atualizar a variável. Demonstre o valor de total_inscritos antes e depois 
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+total_inscritos = 0
+def inscrever_aluno (quantidade):
+    total_inscritos = 1
+    return total_inscritos * quantidade
+quantidade = int(input("Digite os números de inscritos: "))
+print (f"A quantidade de alunos inscritos antes da chamada é {total_inscritos}")
+print (f"A quantidade de alunos inscritos depois da chamada é {inscrever_aluno(quantidade)}")
+
