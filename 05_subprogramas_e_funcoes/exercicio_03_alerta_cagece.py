@@ -14,4 +14,6 @@ def emitir_alerta_fatura(nome_cliente, valor, data_vencimento):
 nome_cliente = str(input("Digite o nome do cliente: "))
 valor = float(input("Digite o valor da fatura: "))
 data_vencimento = (input("Digite a data de vencimento: "))
+print("-"*100)
 print(emitir_alerta_fatura(nome_cliente, valor, data_vencimento))
+print("-"*100)
