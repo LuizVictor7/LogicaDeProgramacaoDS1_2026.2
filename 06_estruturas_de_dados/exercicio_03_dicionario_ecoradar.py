@@ -15,5 +15,5 @@ for n in ecoradar:
     if cargo:
         print(cargo )
     else:
-        print("NAda")
+        print("Nada")
 print("Fim do Dicionario")

@@ -12,8 +12,8 @@ Percorra a matriz, calcule a média de cada um e exiba:
 # TODO: Desenvolva o algoritmo abaixo:
 matriz= [
     ["Jorge", 10,10],
-    ["Davi", 8.0, 6.8],
-    ["Witalo", 7.8,7.5]
+    ["Davi", 6.0, 6.0],
+    ["Witalo", 7.8,7.0]
 ]
 
 for n in matriz:
