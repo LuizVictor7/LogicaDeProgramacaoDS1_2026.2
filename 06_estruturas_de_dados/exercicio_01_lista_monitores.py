@@ -10,3 +10,10 @@ ENUNCIADO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+list =["Ryan Mesquita Damasceno"]
+for n in range(2):
+    monitor= str(input("Digite o nome do novo monitor: "))
+    list.append(monitor)
+list[2]="Ryan Mesquita Damasceno"
+list[0]=monitor
+print(list)

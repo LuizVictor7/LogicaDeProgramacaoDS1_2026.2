@@ -8,3 +8,12 @@ Leia uma matrícula via terminal e exiba a função correspondente cadastrada.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+ecoradar= {"1": "Analista de Dados","2": "Dev","3": "Administração"}
+for n in ecoradar:
+    sla= input("Digite um numero de matricula: ")
+    cargo = ecoradar.get(sla)
+    if cargo:
+        print(cargo )
+    else:
+        print("NAda")
+print("Fim do Dicionario")
